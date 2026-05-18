@@ -1,0 +1,91 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagens\ computaria.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    line-height: 1.8;
+    background-color: dimgray;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: blue;
+    text-shadow: 0 0 10px black;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    background: salmon;
+    padding: 12px 25px;
+    border-radius: 12px;
+    transition: 0.4s;
+    font-weight: bold;
+    box-shadow: 0 0 10px beige;
+}
+
+
+ul li a:hover{
+    background: salmon;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px steelblue;
+}
+
+
+h2{
+    color: blueviolet;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    border-left: 5px solid blueviolet;
+    padding-left: 15px;
+}
+
+
+p{
+    background: gray;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 10px beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+b{
+    color: purple;
+}
+h3{
+     background: gray;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    box-shadow: 0 0 10px beige;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
